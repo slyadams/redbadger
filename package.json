@@ -1,0 +1,19 @@
+{
+  "name": "red-badger-eval",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "jasmine-ts  --config=spec/support/jasmine.json"
+  },
+  "keywords": [],
+  "author": "Simon Adams (simonadams@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@types/jasmine": "^2.5.47",
+    "@types/node": "^7.0.22",
+    "get-stdin": "^5.0.1",
+    "jasmine": "^2.6.0",
+    "jasmine-ts": "^0.1.3"
+  }
+}
